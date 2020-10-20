@@ -1,7 +1,7 @@
 This repo contains the code for the paper 'Attentions for short duration speech classification'. 
 
 There are 2 folders named Emotion_recognition and Infant_cry which contain the codes for the respective tasks. The files named Transformer  and ResNeSt contain the code for the Transformer and the ResNeSt architecture as described in the paper and the files named test_Transformer and test_ResNeSt contain the code for finding the performance of the models by removing 15 and 20% of the frames.
-The infant cry database (Baby Chillanto) contains audio clips of a duration of 1 second while the emotion recognition database (CREMA-D - https://github.com/CheyneyComputerScience/CREMA-D) contains audio clips of upto 5 seconds because of which we have obtained results using 1, 3 and, 5 seconds of durations (for high emotion level only).
+The infant cry database (Baby Chillanto) contains audio clips of a duration of 1 second while the emotion recognition database (CREMA-D - https://github.com/CheyneyComputerScience/CREMA-D) contains audio clips of upto 5 seconds because of which we have obtained results using 1, 3 and, 5 seconds of durations (for high intensity emotion level only).
 
 The code has been written using Python 3.6.5 and TensorFlow 2.2.0
 
